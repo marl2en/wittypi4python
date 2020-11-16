@@ -20,7 +20,7 @@ Use this software at your own risk.
 # Install:
 - Follow the installation tutorial described by UUGEAR. 
 - You should be able to access wittypi with the bash scripts at /home/pi/wittypi
-- Copy  "__init__.py" to your wittypi folder at RPi. 
+- Copy  "wittypi.py" to your wittypi folder at RPi. 
 
 # How to use:
 - sudo python3 
