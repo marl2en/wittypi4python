@@ -18,20 +18,19 @@ Use this software at your own risk.
 
 
 # Install:
-Follow the installation tutorial described by UUGEAR. 
-You should be able to access wittypi with the bash scripts at /home/pi/wittypi
-Copy files __init__.py to your wittypi folder at RPi. 
+- Follow the installation tutorial described by UUGEAR. 
+- You should be able to access wittypi with the bash scripts at /home/pi/wittypi
+- Copy  "__init__.py" to your wittypi folder at RPi. 
 
 # How to use:
-python3 
-
-Add wittypi folder to PYTHONPATH in this way:
-import sys
-sys.path.append(os.path.join("/home/pi/wittypi"))
-from wittypi import *
+- python3 
+- Add wittypi folder to PYTHONPATH in this way:
+- import sys
+- sys.path.append(os.path.join("/home/pi/wittypi"))
+- from wittypi import *
 
 # Examples:
 
-input_voltage = get_input_voltage()
+- input_voltage = get_input_voltage()
 
 Have a nice day. 
