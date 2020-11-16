@@ -23,10 +23,9 @@ Use this software at your own risk.
 - Copy  "__init__.py" to your wittypi folder at RPi. 
 
 # How to use:
-- python3 
-- Add wittypi folder to PYTHONPATH in this way:
+- sudo python3 
 - import sys
-- sys.path.append(os.path.join("/home/pi/wittypi"))
+- sys.path.append("/home/pi/wittypi")
 - from wittypi import *
 
 # Examples:
