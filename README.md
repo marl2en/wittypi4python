@@ -7,7 +7,7 @@ This is very useful while running RPi powered by a battery.
 For a practical use of this library for a solar-powered RPi Monitor Station you can visit: 
 http://www.uugear.com/product/wittypi-mini/
 
-Requirement:
+ # Requirement:
     • RPi
     • WittyPi Mini 
     • Python libraries: pip3 install smbus2
@@ -17,12 +17,12 @@ Tested on RPi 3 (Raspian) and WittyPi mini (version 3.11).
 Use this software at your own risk. 
 
 
-Install:
+# Install:
 Follow the installation tutorial described by UUGEAR. 
 You should be able to access wittypi with the bash scripts at /home/pi/wittypi
 Copy files __init__.py to your wittypi folder at RPi. 
 
-How to use:
+# How to use:
 python3 
 
 Add wittypi folder to PYTHONPATH in this way:
@@ -30,7 +30,7 @@ import sys
 sys.path.append(os.path.join("/home/pi/wittypi"))
 from wittypi import *
 
-Examples:
+# Examples:
 
 input_voltage = get_input_voltage()
 
