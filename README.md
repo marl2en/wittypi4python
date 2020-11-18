@@ -26,7 +26,7 @@ Use this software at your own risk.
 - sudo python3 
 - import sys
 - sys.path.append("/home/pi/wittypi")
-- from wittypi import *
+- from Wittypi import *
 
 # Examples:
 
