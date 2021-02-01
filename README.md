@@ -5,11 +5,11 @@ Here we´ve got a python library for WittyPi Mini pretty much the same as the ba
 WittyPi Mini is a RTC power management for Raspberry Pi (RPi). Most important it can start/shutdown RPi gracefully at specified times or battery voltage. 
 This is very useful while running RPi powered by a battery. 
 For a practical use of this library for a solar-powered RPi Monitor Station you can visit: 
-http://www.uugear.com/product/wittypi-mini/
+http://www.uugear.com/product/witty-pi-3-mini-realtime-clock-and-power-management-for-raspberry-pi/
 
  # Requirement:
     • RPi
-    • WittyPi Mini 
+    • WittyPi Mini 3
     • Python libraries: pip3 install smbus2
 
 This software is a quick and dirty approach to get a python interface for WittyPi. The code can be rewritten in a nice python class. 
